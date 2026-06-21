@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin
+Disallow: /perfil
+Disallow: /mis-reservas
+Disallow: /api/
+Disallow: /login
+Disallow: /signup
+
+# IMPORTANTE: Reemplaza el dominio con el tuyo real
+Sitemap: https://travelagency.com/sitemap.xml

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://travelagency.com/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+
+  <url>
+    <loc>https://travelagency.com/vuelos</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+
+  <url>
+    <loc>https://travelagency.com/hoteles</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+
+  <url>
+    <loc>https://travelagency.com/vacaciones</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+
+  <url>
+    <loc>https://travelagency.com/autobuses</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+
+  <url>
+    <loc>https://travelagency.com/traslados</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+
+  <url>
+    <loc>https://travelagency.com/destinos</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+
+  <url>
+    <loc>https://travelagency.com/blog</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+
+  <url>
+    <loc>https://travelagency.com/sobre-nosotros</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+
+  <url>
+    <loc>https://travelagency.com/contacto</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2026-03-23</lastmod>
+  </url>
+
+</urlset>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 52" fill="none">
+  <circle cx="26" cy="26" r="24" fill="#003580"/>
+  <path d="M14 26 L26 19 L32 21.5 L22 26 L32 30.5 L26 33 Z" fill="white" opacity="0.95"/>
+  <path d="M20 26 L16 32 L19.5 32 L22 28.5 Z" fill="white" opacity="0.65"/>
+  <path d="M20 26 L17 21 L19.5 21 L21.5 23.5 Z" fill="white" opacity="0.65"/>
+  <text x="58" y="22" font-family="Poppins,sans-serif" font-size="16" font-weight="700" fill="#003580" letter-spacing="-0.3">Viajes</text>
+  <text x="58" y="38" font-family="Poppins,sans-serif" font-size="11" font-weight="400" fill="#5f6367" letter-spacing="0.3">y Experiencias</text>
+  <rect x="58" y="42" width="74" height="1.5" rx="0.75" fill="#ee1d25" opacity="0.5"/>
+</svg>
