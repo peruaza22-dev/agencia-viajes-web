@@ -1,0 +1,23 @@
+name: Supabase Keepalive
+
+on:
+  schedule:
+    # Cada 5 días a mediodía UTC
+    - cron: '0 12 */5 * *'
+  workflow_dispatch: # Permite ejecución manual desde GitHub Actions
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Supabase via API keepalive
+        run: |
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
+            -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
+            "${{ secrets.NEXT_PUBLIC_BASE_URL }}/api/keepalive")
+          echo "HTTP status: $STATUS"
+          if [ "$STATUS" != "200" ]; then
+            echo "::error::Keepalive falló con HTTP $STATUS"
+            exit 1
+          fi
+          echo "✓ Supabase sigue activo"
